@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;}
+
+
+/* ********** HEADER ********** */
+header {
+	height: 80px;
+	background: gray;
+	color: white;}
+
+figure {
+	height: 70px;
+	width: 80px;
+	background: red;}
+
+h1 {
+	color: gray;
+	text-align: center;
+	font-weight: 700;}
+
+
+/* ********** CAROUSEL ********** */
+.slide {
+	height: 400px;
+	background: black;
+	color: white;}
+
+.carousel-indicators {
+	transform: rotate(90deg);
+	position: absolute;
+	top: 30px;
+	left: -1600px;}
+
+.photo_slide {
+	height: 500px;}
+
+.carousel-inner h5, .carousel-inner p {
+	color: black;
+	font-weight: bold;}
+
+
+/* ********** MAIN ********** */
+main {
+	background: purple;
+	height: auto;}
+
+section {
+	height: auto;
+	background: beige;}
+
+section:nth-child(2) {
+	background: burlywood;}
+
+article {
+	outline: 1px solid black;
+	height: 300px;
+	background: orange;
+	padding: 0 !important;}
+
+article:nth-child(2) {
+	background: green;}
+article:nth-child(3) {
+	background: blue;}
+
+header.article, h2 {
+	height: 20px;
+	text-align: center;
+	background: transparent;
+	padding-top: 5px;}
+
+footer.article {
+	width: 100%;
+	background: yellow;
+	height: auto;
+	margin-top: 60px;
+	padding: 0;}
+
+p.texte {
+	width: 100%;
+	height: 150px;
+	margin-top: 30px;
+	padding: 15px;}
+
+article.toto {
+	border-radius: 50%;
+	height: 300px;
+	background: khaki;}
+
+
+/* ********** PRICING ********** */
+.bg-pricing {
+	background: lightblue;}

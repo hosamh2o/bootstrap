@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+</head>
+<body>
+
+
+<!-- ********** HEADER ********** -->
+	<header class="container-fluid">
+		<figure>
+			<img src="pika.jpg" alt="pikachu" class="img-fluid" role="img">
+		</figure>
+	</header>
+	<h1>COUCOU C'EST MOI !</h1>
+
+
+<!-- ********** NAVIGATION ********** -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
+	  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+
+  		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+		      	<li class="nav-item active">
+		        	<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+		      	</li>
+		      	<li class="nav-item">
+		        	<a class="nav-link" href="#">Link</a>
+		      	</li>
+		      	<li class="nav-item dropdown">
+		        	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          		Dropdown
+		        	</a>
+			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			          	<a class="dropdown-item" href="#">Action</a>
+			          	<a class="dropdown-item" href="#">Another action</a>
+			          	<div class="dropdown-divider"></div>
+			          	<a class="dropdown-item" href="#">Something else here</a>
+			        </div>
+		      	</li>
+		      	<li class="nav-item">
+		        	<a class="nav-link disabled" href="#">Disabled</a>
+		      	</li>
+		    </ul>
+		    <form class="form-inline my-2 my-lg-0">
+			    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+			    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+		    </form>
+		</div>
+	</nav>
+
+
+<!-- ********** CAROUSEL ********** -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active slide">
+                <img class="d-block w-100 img-fluid photo_slide" src="slide1.png" alt="First slide">
+                <div class="carousel-caption d-md-block">
+                    <h5>Slide1</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit inventore id vel repudiandae, aperiam totam quod temporibus adipisci omnis magnam rem necessitatibus maiores unde, harum facere nobis animi eos nulla.</p>
+                </div>
+            </div>
+            <div class="carousel-item slide">
+                <img class="d-block w-100 img-fluid photo_slide" src="slide2.jpg" alt="Second slide">
+                <div class="carousel-caption d-md-block">
+                    <h5>Slide2</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam asperiores laborum sequi aut. Amet soluta ipsum, aspernatur quidem velit iste accusamus laboriosam. Deserunt molestiae porro voluptatibus maiores dolores harum doloribus.</p>
+                </div>
+            </div>
+            <div class="carousel-item slide">
+                <img class="d-block w-100 img-fluid" src="slide3.jpg" alt="Third slide">
+                <div class="carousel-caption d-md-block">
+                    <h5>Slide3</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ratione eum maiores tempora perspiciatis ea quibusdam animi expedita, labore corporis eaque rerum quos asperiores voluptatem doloribus tenetur et aliquam autem.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+<!-- ********** MAIN ********** -->
+	<main class="container-fluid" role="main">
+		<section>
+			<div class="row">
+
+				<article class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                    <header class="article">
+                        <h2>Qui sommes-nous ?</h2>
+                    </header>
+
+                    <p class="texte">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia soluta odio excepturi impedit nisi. Hic optio ab minima unde nesciunt sed illo debitis soluta sit! Assumenda rerum iste, quos tempore?</p>
+
+                    <footer class="article">
+                        &copy;2018 Nom et prénom
+                    </footer>
+                </article>
+
+				<article class="col-xs-12 col-sm-6 col-md-6 col-lg-4"></article>
+				<article class="col-xs-12 col-sm-6 col-md-12 col-lg-4"></article>
+			</div>
+		</section>
+
+		<section>
+			<div class="row">
+				<article class="col-xs-12 col-sm-6 col-md-6 col-lg-4 toto"></article>
+				<article class="col-xs-12 col-sm-6 col-md-12 col-lg-4"></article>
+			</div>
+		</section>
+
+		<section>
+			<div class="row">
+				<article></article>
+			</div>
+		</section>
+	</main>
+
+
+<!-- ********** PRICING ********** -->
+<!-- Consigne : ajouter un élément boostrap au site. -->
+    <div class="container">
+        <div class="card-deck mb-3 text-center">
+            <div class="card mb-4 box-shadow bg-pricing">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Free</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>10 users included</li>
+                        <li>2 GB of storage</li>
+                        <li>Email support</li>
+                        <li>Help center access</li>
+                    </ul>
+                    <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
+                </div>
+            </div>
+            <div class="card mb-4 box-shadow bg-pricing">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Pro</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>20 users included</li>
+                        <li>10 GB of storage</li>
+                        <li>Priority email support</li>
+                        <li>Help center access</li>
+                    </ul>
+                    <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
+                </div>
+            </div>
+            <div class="card mb-4 box-shadow bg-pricing">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Enterprise</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>30 users included</li>
+                        <li>15 GB of storage</li>
+                        <li>Phone and email support</li>
+                        <li>Help center access</li>
+                    </ul>
+                    <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- ********** ASIDE ********** -->
+	<aside role="complementary">
+		<div></div>
+		<div></div>
+		<div></div>
+	</aside>
+
+
+<!-- ********** FOOTER ********** -->
+	<footer>
+		<address>
+			Vous pouvez contacter l'auteur à l'adresse <a href="http://www.undomaine.com/contact">www.undomaine.com</a>.<br>
+            Si vous relevez quelques bogues que ce soient, merci de contacter <a href="mailto:webmaster@somedomain.com">le webmaster</a>.<br>
+            Vous pouvez aussi venir nous voir :<br>
+            Mozilla Foundation<br>
+            1981 Landings Drive<br>
+            Building K<br>
+            Mountain View, CA 94043-0801<br>
+            USA
+		</address>
+	</footer>
+
+
+<!-- ********** SCRIPT ********** -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
